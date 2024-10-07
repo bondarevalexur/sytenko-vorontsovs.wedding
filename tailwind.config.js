@@ -11,7 +11,7 @@ module.exports = {
           400: "#aeb9a9",
           300: "#afb292",
         },
-        rose: { DEFAULT: "#ddcbbe" },
+        rose: { DEFAULT: "#ef9742", 50: "#ddcbbe" },
         gray: { 500: "#bbbbbb" },
       },
     },
