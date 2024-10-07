@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'seawave';
+    src: url('./assets/fonts/NT-SEAWAVE-(alternative)-PERSONAL-USE.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'seawave-standart';
+    src: url('./assets/fonts/NT-SEAWAVE-(standart)-PERSONAL-USE.otf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'alumniSansPinstripe';
+    src: url('./assets/fonts/AlumniSansPinstripe-Regular.ttf') format('truetype');
+}
+
+body {
+    /*font-family: 'SEAWAVE', sans-serif;*/
+}
