@@ -18,6 +18,12 @@
     src: url('./assets/fonts/AlumniSansPinstripe-Regular.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'samantha';
+    src: url('./assets/fonts/samantha.ttf') format('truetype');
+}
+
+
 body {
     /*font-family: 'SEAWAVE', sans-serif;*/
 }
