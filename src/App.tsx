@@ -1,20 +1,21 @@
 import pre_image from "./assets/pare.jpg";
 import hands from "./assets/hands.png";
-import LocalBarIcon from "@mui/icons-material/LocalBar";
+// import LocalBarIcon from "@mui/icons-material/LocalBar";
+
+import LogoIcon from "./assets/icons/logo.svg";
+import CakeIcon from "./assets/icons/cake.svg";
+import CelebrationIcon from "./assets/icons/celebration-svgrepo-com.svg";
+import DancingIcon from "./assets/icons/dancing-svgrepo-com.svg";
+import SvgrepoIcon from "./assets/icons/wedding-svgrepo-com.svg";
+import WeddingIcon from "./assets/icons/wedding-svgrepo.svg";
+
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
+
 const WeddingInvitation = () => {
   return (
     <div className="flex flex-col font-seawave items-center justify-center min-h-screen bg-grass-700 text-grass-500 p-8 relative">
-      <h2 className="text-9xl font-seawave text-white font-semibold w-full text-right sm:text-6xl relative h-[200px] flex justify-center">
-        <span className="absolute -top-[10px] left-[22vw] transform">M</span>
-        <span className="absolute text-8xl top-[40px] left-[45vw] text-white text-opacity-50">
-          &
-        </span>
-        <span className="absolute top-[20px] left-[58vw]">D</span>
-        <h3 className="text-5xl font-bold text-white absolute text-opacity-50 top-[130px]">
-          30/08
-        </h3>
-      </h2>
+      <LogoIcon className="mb-10" />
+
       <div className="bg-white relative shadow-lg rounded-lg p-8 max-w-3xl text-center space-y-6">
         <h1 className="text-4xl font-bold text-left sm:text-6xl">
           WEDDING 2025
@@ -130,45 +131,43 @@ const WeddingInvitation = () => {
           </tbody>
         </table>
 
-        <div className="grid gap-x-4 gap-y-24 grid-cols-[80px_1fr] mx-10 !mb-20">
+        <div className="grid gap-x-4 gap-y-24 grid-cols-[64px_1fr] mx-10 !mb-20">
           <span className="relative after:absolute after:block after:left-1/2 after:h-20 after:w-[1px] after:bg-grass">
-            <LocalBarIcon className="!h-16 !w-16 block" />
+            <CelebrationIcon className="!h-16 !w-16 block" />
           </span>
           <p className="text-left text-2xl font-alumniSansPinstripe font-bold">
             15:00 <br /> Сбор гостей
           </p>
 
           <span className="relative after:absolute after:block after:left-1/2 after:h-20 after:w-[1px] after:bg-grass">
-            <LocalBarIcon className="!h-16 !w-16 block" />
+            <SvgrepoIcon className="!h-16 !w-16 block" />
           </span>
           <p className="text-left text-2xl font-alumniSansPinstripe font-bold">
             16:00 <br /> Церемония
           </p>
 
           <span className="relative after:absolute after:block after:left-1/2 after:h-20 after:w-[1px] after:bg-grass">
-            <LocalBarIcon className="!h-16 !w-16 block" />
+            <DancingIcon className="!h-16 !w-16 block" />
           </span>
           <p className="text-left text-2xl font-alumniSansPinstripe font-bold">
             17:00 <br /> Банкет
           </p>
 
           <span className="relative after:absolute after:block after:left-1/2 after:h-20 after:w-[1px] after:bg-grass">
-            {/*<CakeSvg className="!h-16 !w-16 block" />*/}
-            <LocalBarIcon className="!h-16 !w-16 block" />
+            <CakeIcon className="!h-16 !w-16 block" />
           </span>
           <p className="text-left text-2xl font-alumniSansPinstripe font-bold">
             20:00 <br /> Торт
           </p>
-          <span className="relative after:absolute after:block after:left-1/2 after:h-20 after:w-[1px] after:bg-grass">
-            {/*<CakeSvg className="!h-16 !w-16 block" />*/}
-            <LocalBarIcon className="!h-16 !w-16 block" />
+          <span className="relative">
+            <WeddingIcon className="!h-16 !w-16 block" />
           </span>
           <p className="text-left text-2xl font-alumniSansPinstripe font-bold">
             22:00 <br /> Завершение торжества
           </p>
         </div>
-        <p className="text-sm">Заполни анкету гостя</p>
-        <p className="text-sm">Все вопросы можно задать дальше организатору</p>
+        {/*<p className="text-sm">Заполни анкету гостя</p>*/}
+        {/*<p className="text-sm">Все вопросы можно задать организатору</p>*/}
       </div>
     </div>
   );
