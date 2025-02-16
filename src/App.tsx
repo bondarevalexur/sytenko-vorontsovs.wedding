@@ -12,10 +12,10 @@ import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 
 const WeddingInvitation = () => {
   return (
-    <div className="flex flex-col font-seawave items-center justify-center min-h-screen bg-grass-700 text-grass-500 p-8 relative">
+    <div className="flex flex-col font-seawave items-center justify-center min-h-screen bg-grass-700 text-grass-500 py-8 px-4 sm:px-8  relative">
       <LogoIcon className="mb-10" />
 
-      <div className="bg-white relative shadow-lg rounded-lg w-full p-8 max-w-3xl text-center space-y-6">
+      <div className="bg-white relative shadow-lg rounded-lg w-full py-8 px-2 sm:px-8 max-w-3xl text-center space-y-6">
         <h1 className="text-4xl font-bold text-left sm:text-6xl">
           WEDDING 2025
         </h1>
@@ -27,11 +27,11 @@ const WeddingInvitation = () => {
           MARGARITA & DMITRY
         </h2>
 
-        <h3 className="font-alumniSansPinstripe font-semibold text-3xl sm:text-6xl mb-[150px]">
+        <h3 className="font-alumniSansPinstripe font-semibold !my-20 text-3xl sm:text-6xl">
           Родные и близкие, приглашаем вас на свадебное торжество!
         </h3>
 
-        <table className="[&_td]:p-[8px] m-auto sm:[&_td]:p-[16px]">
+        <table className="[&_td]:p-[8px] m-auto sm:[&_td]:p-[16px] mb-20">
           <thead>
             <tr>
               <th>Mon</th>
@@ -106,28 +106,28 @@ const WeddingInvitation = () => {
             <CelebrationIcon className="!h-16 !w-16 block" />
           </span>
           <p className="text-left text-2xl font-alumniSansPinstripe font-bold">
-            15:00 <br /> Сбор гостей
+            14:30 <br /> Сбор гостей
           </p>
 
           <span className="relative after:absolute after:block after:left-1/2 after:h-20 after:w-[1px] after:bg-grass">
             <SvgrepoIcon className="!h-16 !w-16 block" />
           </span>
           <p className="text-left text-2xl font-alumniSansPinstripe font-bold">
-            16:00 <br /> Церемония
+            15:00 <br /> Церемония
           </p>
 
           <span className="relative after:absolute after:block after:left-1/2 after:h-20 after:w-[1px] after:bg-grass">
             <DancingIcon className="!h-16 !w-16 block" />
           </span>
           <p className="text-left text-2xl font-alumniSansPinstripe font-bold">
-            17:00 <br /> Банкет
+            16:00 <br /> Банкет
           </p>
 
           <span className="relative after:absolute after:block after:left-1/2 after:h-20 after:w-[1px] after:bg-grass">
             <CakeIcon className="!h-16 !w-16 block" />
           </span>
           <p className="text-left text-2xl font-alumniSansPinstripe font-bold">
-            20:00 <br /> Торт
+            20:30 <br /> Торт
           </p>
           <span className="relative">
             <WeddingIcon className="!h-16 !w-16 block" />
@@ -154,16 +154,16 @@ const WeddingInvitation = () => {
           </div>
           <div className="grid grid-cols-[100px_1fr] border-b-grass-500 border-b-2 py-4 items-center space-y-1">
             <span className="font-semibold">КОГДА:</span>
-            <span>30 августа / 18:00</span>
+            <span>30 августа / 15:30</span>
           </div>
           <div className="grid grid-cols-[100px_1fr] border-b-grass-500 border-b-2 py-4 items-center space-y-1">
             <span className="font-semibold">ДРЕСС-КОД:</span>
             <div className="flex gap-2">
-              <span className="block w-8 h-8 rounded-full bg-grass-500" />
-              <span className="block w-8 h-8 rounded-full bg-grass-300" />
-              <span className="block w-8 h-8 rounded-full bg-grass-400" />
-              <span className="block w-8 h-8 rounded-full bg-rose" />
-              <span className="block w-8 h-8 rounded-full bg-gray-500" />
+              <span className="block w-4 h-4 sm:w-8 sm:h-8 rounded-full bg-grass-500" />
+              <span className="block  w-4 h-4 sm:w-8 sm:h-8 rounded-full bg-grass-300" />
+              <span className="block w-4 h-4 sm:w-8 sm:h-8 rounded-full bg-grass-400" />
+              <span className="block w-4 h-4 sm:w-8 sm:h-8 rounded-full bg-rose" />
+              <span className="block w-4 h-4 sm:w-8 sm:h-8 rounded-full bg-gray-500" />
             </div>
           </div>
         </div>
@@ -173,7 +173,7 @@ const WeddingInvitation = () => {
           height="405"
         />
 
-        <div className="text-2xl sm:text-4xl font-bold font-alumniSansPinstripe">
+        <div className="text-2xl sm:text-4xl font-bold font-alumniSansPinstripe !my-20">
           <h3 className="text-3xl sm:text-5xl mb-4">Пожалуйста!</h3>
           <p className="mb-4">
             Не дарите нам цветы – сразу после свадьбы мы уедем в путешествие и
@@ -185,6 +185,10 @@ const WeddingInvitation = () => {
             провести этот вечер без детей.
           </p>
         </div>
+
+        <h3 className="text-3xl sm:text-5xl font-alumniSansPinstripe">
+          Просим подтвердить свое присутствие на торжестве до 15.08
+        </h3>
 
         <div className="w-full overflow-hidden max-h-[700px] sm:max-h-[620px]">
           <script src="https://forms.yandex.ru/_static/embed.js"></script>
@@ -198,7 +202,7 @@ const WeddingInvitation = () => {
           ></iframe>
         </div>
 
-        <div className="text-xl font-bold font-alumniSansPinstripe sm:text-3xl">
+        <div className="text-xl font-bold font-alumniSansPinstripe sm:text-3xl !my-20">
           <p>
             По всем вопросам, связанным с трансфером, торжеством и сюрпризами,
             вы можете обращаться к нашему свадебному организатору/координатору
