@@ -154,7 +154,7 @@ const WeddingInvitation = () => {
           </div>
           <div className="grid grid-cols-[100px_1fr] border-b-grass-500 border-b-2 py-4 items-center space-y-1">
             <span className="font-semibold">КОГДА:</span>
-            <span>30 августа / 15:30</span>
+            <span>30 августа / 14:30</span>
           </div>
           <div className="grid grid-cols-[100px_1fr] border-b-grass-500 border-b-2 py-4 items-center space-y-1">
             <span className="font-semibold">ДРЕСС-КОД:</span>
@@ -190,13 +190,13 @@ const WeddingInvitation = () => {
           Просим подтвердить свое присутствие на торжестве до 15.08
         </h3>
 
-        <div className="w-full overflow-hidden max-h-[700px] sm:max-h-[620px]">
+        <div className="w-full overflow-hidden max-h-[700px] sm:max-h-[614px]">
           <script src="https://forms.yandex.ru/_static/embed.js"></script>
           <iframe
-            className="-mb-[124px]"
-            src="https://forms.yandex.ru/u/67adb862493639445be7145c/?iframe=1"
+            className="-mb-[130px]"
+            src="https://forms.yandex.ru/u/67b33c51e010db02826ff165/?iframe=1"
             frameBorder="0"
-            name="ya-form-67adb862493639445be7145c"
+            name="ya-form-67b33c51e010db02826ff165"
             width="100%"
             height="900px"
           ></iframe>
